@@ -5,7 +5,7 @@ ul {
 }
 
 .container {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://assets.nflxext.com/ffe/siteui/vlv3/031c42b9-0c81-4db5-b980-0160765188e9/d4a5ce7f-8ed5-4f19-847e-c30dcb94434f/KR-ko-20240819-TRIFECTA-perspective_WEB_b52e8b72-0adb-4297-b373-a69e092f69e4_large.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
