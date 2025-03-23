@@ -31,10 +31,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-left: calc((100% - 90%)/2);
-  padding-right: calc((100% - 90%)/2);
+  padding: 40px 5%;
 }
 
 .logo {
@@ -60,7 +57,7 @@ ul {
   border-radius: 4px;
   text-align: center;
   font-family: 'Spoqa Han Sans Neo', 'sans-serif';
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5rem;
   letter-spacing: -0.008px;
@@ -179,9 +176,8 @@ ul {
   color: #fff;
   background-color: #000;
   height: 40%;
+  padding: 0 5%;
   padding-top: 46px;
-  padding-left: calc((100% - 90%)/2);
-  padding-right: calc((100% - 90%)/2);
 }
 
 .footer_ask_wrapper {
@@ -213,6 +209,10 @@ ul {
   row-gap: 16px;
   column-gap: 60px;
   list-style: none;
+
+  li{
+    min-width: 144px;
+  }
 }
 
 .footer_nav a {
@@ -266,7 +266,7 @@ h3 {
   }
 
   .header_inner {
-    padding: 20px 25px;
+    padding: 20px 4%;
   }
 
   .main {
@@ -288,7 +288,7 @@ h3 {
   }
 
   .header_button_wrapper {
-    column-gap: 16px;
+    column-gap: 5px;
   }
 
   .header .select_btn {
@@ -374,7 +374,7 @@ h3 {
   }
 
   .footer .select_btn {
-    margin-top: 51px;
+    margin-top: 30px;
   }
 
   .footer_address {
@@ -385,6 +385,7 @@ h3 {
   h3 {
     font-size: 20px;
     line-height: 30px;
+    margin-top: 20px;
     margin-bottom: 10px;
   }
 }

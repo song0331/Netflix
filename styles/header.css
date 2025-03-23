@@ -7,10 +7,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-left: calc((100% - 90%)/2);
-  padding-right: calc((100% - 90%)/2);
+  padding: 40px 5%;
 }
 
 .logo {
@@ -33,7 +30,7 @@
   }
 
   .header_inner {
-    padding: 20px 25px;
+    padding: 20px 4%;
   }
 
   .logo {
@@ -42,7 +39,7 @@
   }
 
   .header_button_wrapper {
-    column-gap: 16px;
+    column-gap: 5px;
   }
 
   .header .select_btn {
